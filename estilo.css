@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(98, 108, 167);
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background:  rgb(63, 72, 117);
+    color: white;
+    Transition: 0.7s;
+}
+
+
+
+
+
+.principal{
+    background: rgb(98, 108, 167);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 100px;
+}
+
+.textos{
+    color: white;
+    
+    text-align: center;
+    
+}
+
+.textos h1{
+    font-size :45px;
+    
+}
+
+.textos p{
+    text-align: justify;
+    transition: 0.7s;
+}
+.textos h1, p{
+    margin-bottom: 10px;
+}
+
+
+
+.imagem{
+    height: 470px;
+    width: 4000px;
+    background-color: rgb(63, 72, 117);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 100px ;
+}
+
+.imagem img{
+    height: 300px;
+    width: 500px;
+}
+
+
+
+.textos p:hover{
+    color: rgb(182, 191, 238);
+    font-size: 20px;}
+
+
+    header:hover{
+       color: rgb(182, 191, 238);
+    font-size: 40px;
+    }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      font-size: 25px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      gap: 10px;
+
+    }
+
+    .links a{
+        text-decoration: none;
+        color: white;
+        
+    }
+
+    .problema{
+        color: white;
+        transition: 0.7s;
+    }
+
+    .problema:hover{
+font-size: 30px;
+background: rgb(74, 158, 74);
+padding: 3px;
+    }
+
+    .solucao{
+        color: white;
+        transition: 0.7s;
+    }
+
+    .solucao:hover{
+font-size: 30px;
+background: rgb(255, 166, 0);
+padding: 3px;
+    }
+
+    .proposta{
+        color: white;
+        transition: 0.7s;
+    }
+
+    .proposta:hover{
+font-size: 30px;
+background: rgb(36, 33, 197);
+padding: 3px;
+    }
+
+    .beneficio{
+        color: white;
+        transition: 0.7s;
+    }
+
+    .beneficio:hover{
+font-size: 30px;
+background: rgb(230, 35, 67);
+padding: 3px;
+    }
+
+    .indicador{
+        color: white;
+        transition: 0.7s;
+    }
+
+    .indicador:hover{
+font-size: 30px;
+background: rgb(255, 251, 12);
+padding: 3px;
+    }

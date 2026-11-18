@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(98, 108, 167);
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: rgb(0, 9, 87) ;
+    color: white;
+    Transition: 0.7s;
+}
+
+
+
+
+
+.principal{
+    background: rgb(61, 73, 173);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 100px;
+}
+
+.textos{
+    color: white;
+    width: 2500px;
+    text-align: center;
+    
+}
+
+.textos h1{
+    font-size :25px;
+    
+}
+
+.textos p{
+    text-align: justify;
+    transition: 0.7s;
+}
+.textos h1, p{
+    margin-bottom: 10px;
+}
+
+.imagem-avaliação{
+height: 670px;
+    width: 4000px;
+    background-color: rgb(0, 9, 87);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 100px ;}
+
+    .imagem-avaliação img{
+    height: 500px;
+    width: 400px;
+}
+
+.imagem{
+    height: 470px;
+    width: 4000px;
+    background-color: rgb(0, 9, 87);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 100px ;
+}
+
+.imagem img{
+    height: 300px;
+    width: 500px;
+}
+
+.texto{
+     color: white;
+    width: 2500px;
+    text-align: center;
+}
+
+
+.textos p:hover{
+    color: rgb(0, 183, 255);
+    font-size: 20px;}
+
+
+    header:hover{
+       color: rgb(0, 183, 255);
+    font-size: 40px;
+    }
